@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VLT Metropolitano | Mobilidade de Verdade para a Grande Florianópolis</title>
+    <link rel="icon" type="image/png" href="img/Logo-Brasao-IF-2.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">VLT<span>METROPOLITANO</span></div>
+            <nav>
+                <a href="#estudo">O Estudo e Créditos</a>
+                <a href="#economia">Análise Preditiva</a>
+                <a href="#viabilidade">Viabilidade</a>
+                <a href="#marcopolo">Tecnologia</a>
+                <a href="#mip">MIP & União</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <span class="tag-cidada">Projeto Cidadão • Independente • Baseado em Dados</span>
+            <h1>O Dever Coletivo Pela Mobilidade Eficiente</h1>
+            <p>Deixando o achismo de lado. Unimos engenharia de tráfego, economia real e indústria nacional para
+                apresentar a solução definitiva para o gargalo continental.</p>
+            <div class="hero-btns">
+                <a href="#economia" class="btn btn-primary">Ver Dados Econômicos</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="estudo" class="section">
+        <div class="container text-center">
+            <h2 class="section-title">O Estudo Base (Logistel® & TLPG®)</h2>
+            <p class="section-desc">Este portal é um exercício de cidadania. Utilizamos como base o impecável estudo de
+                engenharia desenvolvido para Florianópolis, cujos créditos e propriedade intelectual pertencem
+                exclusivamente à <strong>Logistel® (Portugal)</strong> e <strong>TLPG® (Brasil)</strong>.</p>
+
+            <div class="video-thumbnail" onclick="openDriveModal('1MWvvCMUkvrmTh_9Sb1u-j2n5tKTeoAeu')">
+                <img src="https://img.youtube.com/vi/6fY7w_dJQnE/maxresdefault.jpg"
+                    alt="Estudo Metrô Ligeiro Florianópolis">
+                <div class="play-overlay">
+                    <div class="play-btn">▶</div>
+                    <span>Assistir ao Estudo (17:03)</span>
+                </div>
+            </div>
+            
+            <p style="margin-top: 1.5rem; font-style: italic; font-size: 0.95rem; color: var(--text-muted); max-width: 800px; margin-left: auto; margin-right: auto;">
+                "Um ponto de partida sólido que exige evolução: precisamos de um novo projeto técnico, totalmente atualizado e sem viés, elaborado pela melhor engenharia para resolver o nosso gargalo de forma definitiva."
+            </p>
+        </div>
+    </section>
+
+    <section id="economia" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Análise Preditiva Reajustada (2015 ➔ 2026)</h2>
+            <p class="section-desc">Cálculo matemático auditável: Tomamos a economia de US$ 52,3 milhões apontada no
+                estudo, convertemos pelo câmbio de 2015 (R$ 3,33), corrigimos pelo IPCA acumulado (~76,7%) e aplicamos o
+                fator de crescimento de frota da região (+28%).</p>
+
+            <div class="economia-dashboard">
+
+                <div class="sc-data-cards">
+                    <div class="sc-card">
+                        <div class="sc-card-header">
+                            <span class="sc-card-emoji">💰</span>
+                            <span class="sc-card-label">PIB</span>
+                        </div>
+                        <div class="sc-card-value">R$ 513,4 BILHÕES</div>
+                        <div class="sc-card-desc">6ª maior economia do Brasil</div>
+                        <div class="sc-card-source">2023 — IBGE</div>
+                    </div>
+
+                    <div class="sc-card">
+                        <div class="sc-card-header">
+                            <span class="sc-card-emoji">💵</span>
+                            <span class="sc-card-label">PIB Per Capita</span>
+                        </div>
+                        <div class="sc-card-value">R$ 67.459,74</div>
+                        <div class="sc-card-desc">5º maior do Brasil</div>
+                        <div class="sc-card-source">2023 — IBGE</div>
+                    </div>
+
+                    <div class="sc-card">
+                        <div class="sc-card-header">
+                            <span class="sc-card-emoji">👥</span>
+                            <span class="sc-card-label">População</span>
+                        </div>
+                        <div class="sc-card-value">8,31 MILHÕES</div>
+                        <div class="sc-card-desc">3,88% da população brasileira</div>
+                        <div class="sc-card-source">Estimativa 2026 — IBGE</div>
+                    </div>
+
+                    <div class="sc-card">
+                        <div class="sc-card-header">
+                            <span class="sc-card-emoji">🗺️</span>
+                            <span class="sc-card-label">Área</span>
+                        </div>
+                        <div class="sc-card-value">95.736,1 km²</div>
+                        <div class="sc-card-desc">1,13% do território brasileiro</div>
+                        <div class="sc-card-source">2025 — IBGE</div>
+                    </div>
+
+                    <div class="sc-card">
+                        <div class="sc-card-header">
+                            <span class="sc-card-emoji">🧑</span>
+                            <span class="sc-card-label">IDHM</span>
+                        </div>
+                        <div class="sc-card-value">0,833</div>
+                        <div class="sc-card-desc">3º maior entre as UFs brasileiras</div>
+                        <div class="sc-card-source">Radar IDHM 2024 — PNUD</div>
+                    </div>
+                </div>
+
+                <div class="charts-column">
+                    <div class="chart-wrapper">
+                        <h3 class="chart-title">Retorno Econômico Anual</h3>
+                        <div class="canvas-container"><canvas id="economyChart"></canvas></div>
+                    </div>
+
+                    <div class="chart-wrapper deficit-wrapper">
+                        <h3 class="chart-title text-danger">O Custo da Inércia (2014 - 2026)</h3>
+                        <div class="canvas-container"><canvas id="deficitChart"></canvas></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-3">
+                <div class="card-stat">
+                    <div class="stat-number">-131.840</div>
+                    <div class="stat-label">Ton/Ano de CO₂</div>
+                    <p class="stat-detail">Projeção atualizada (fator +28%). Redução direta de emissões pela
+                        eletrificação do eixo principal.</p>
+                </div>
+                <div class="card-stat">
+                    <div class="stat-number">-855</div>
+                    <div class="stat-label">Acidentes Evitados / Ano</div>
+                    <p class="stat-detail">Alívio imediato nas vias e profunda economia para a rede pública de saúde e
+                        resgate.</p>
+                </div>
+                <div class="card-stat">
+                    <div class="stat-number">-9,8 Mi</div>
+                    <div class="stat-label">Horas Úteis Resgatadas</div>
+                    <p class="stat-detail">Tempo devolvido à população para trabalho, economia local e bem-estar
+                        familiar.</p>
+                </div>
+            </div>
+
+            <div class="highlight-box">
+                <div class="highlight-val">R$ 393,8 MILHÕES / ANO</div>
+                <div class="highlight-desc">Retorno econômico anualizado atual para o Estado e Municípios com a
+                    implantação do VLT.</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="viabilidade" class="section">
+        <div class="container">
+            <h2 class="section-title">Análise de Viabilidade Técnica</h2>
+            <p class="section-desc">Desconstruindo falsas narrativas: a engenharia moderna prova que não há restrições de solo ou falta de recursos que impeçam a obra. O verdadeiro desafio é superar as "travas humanas" e a inércia política. O VLT atua como a espinha dorsal para uma integração real de modais (trens, ônibus e barcas), apresentando uma eficiência imbatível se comparado à dependência puramente rodoviária.</p>
+
+            <div class="metrics">
+                <div class="metric-item">
+                    <span class="number">-45%</span>
+                    <span class="label">De tráfego nas pontes</span>
+                </div>
+                <div class="metric-item">
+                    <span class="number">12k</span>
+                    <span class="label">Passageiros/hora por sentido</span>
+                </div>
+                <div class="metric-item">
+                    <span class="number">3 Anos</span>
+                    <span class="label">Prazo de implantação</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="marcopolo" class="section bg-dark text-light">
+        <div class="container">
+            <h2 class="section-title text-light">Nacionalização e Indústria: Marcopolo® Rail</h2>
+            <p class="section-desc text-light">O <strong>VLT Prosper</strong>, desenvolvido pela Marcopolo® no RS,
+                enquadra o projeto no Finame (BNDES), facilitando investimentos com juros sustentáveis para
+                infraestrutura pública.</p>
+
+            <div class="video-thumbnail" onclick="openDriveModal('1ZN4sehZJNsLrEZJgNUCWI6pK2SI4enMV')">
+                <img src="https://img.youtube.com/vi/DMKy3p54YzA/maxresdefault.jpg" alt="Marcopolo Rail VLT Prosper">
+                <div class="play-overlay">
+                    <div class="play-btn">▶</div>
+                    <span>Conheça a Tecnologia Nacional</span>
+                </div>
+            </div>
+            
+            <div class="text-center" style="margin-top: 1.5rem;">
+                <a href="https://www.marcopolorail.com.br/solucoes/prosper-city" target="_blank" class="official-link">
+                    🔗 Site oficial: Marcopolo® Prosper City
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="simulador" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">
+                Calculadora de Custo Cidadão 
+                <span class="info-icon" onclick="openInfoModal()" title="Entenda a lógica de cálculo">i</span>
+            </h2>
+            <p class="section-desc">O seu tempo é o principal motor da economia. Descubra quanto dinheiro o atual
+                sistema de transporte queima do seu potencial produtivo anualmente.</p>
+
+            <div class="calculator-box">
+                <div class="input-group">
+                    <label for="hoursPerDay">Quantas horas você perde no trânsito diariamente?</label>
+                    <input type="range" id="hoursPerDay" min="0.5" max="5" step="0.5" value="2">
+                    <div id="hoursVal" class="val-display">2 horas/dia</div>
+                </div>
+
+                <div class="input-group">
+                    <label for="monthlyIncome">Sua renda mensal média (R$):</label>
+                    <input type="range" id="monthlyIncome" min="1500" max="25000" step="500" value="5000">
+                    <div id="incomeVal" class="val-display">R$ 5.000,00</div>
+                </div>
+
+                <div class="calc-results">
+                    <div class="res-card">
+                        <span id="resPersonalHours">0 h</span>
+                        <p>Horas ociosas devolvidas a você por ano</p>
+                    </div>
+                    <div class="res-card highlight-res">
+                        <span id="resMoneyLost">R$ 0</span>
+                        <p>Valor financeiro do seu tempo recuperado</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mip" class="section">
+        <div class="container text-center">
+            <h2 class="section-title">Manifestação de Interesse Privado (MIP)</h2>
+            <p class="section-desc" style="max-width: 900px; margin: 0 auto;">O caminho legal para transformar essa
+                visão em realidade passa por uma Parceria Público-Privada (PPP) na modalidade de concessão patrocinada.
+                Onde os entes públicos e privados dividem riscos, garantindo tarifas justas à população e retorno
+                financeiro previsível aos investidores.</p>
+
+            <div class="mip-case-box">
+                <span class="badge-success">CASE DE SUCESSO COMPROVADO</span>
+                <h3>O Exemplo do Parque Urbano e Marina da Beira-Mar Norte</h3>
+                <p>O projeto da Marina em Florianópolis teve sua origem a partir de uma MIP. Isso prova que modelos de
+                    PPP atraem a iniciativa privada para modernizar a cidade de forma inteligente e sem esgotar o poder
+                    público.</p>
+
+                <div class="carousel-container" id="marinaCarousel">
+                    <img class="carousel-slide active" src="img/1-marina-beira-mar-florianopolis.webp" alt="Marina Beira-Mar Norte">
+                    <img class="carousel-slide" src="img/2-arquibancada.webp" alt="Arquibancada Marina">
+                    <img class="carousel-slide" src="img/4-marina-beira-mar-florianopolis-molhe.webp" alt="Molhe Marina">
+                    <img class="carousel-slide" src="img/6-visaoGeralSuperior.webp" alt="Visão Superior Marina">
+                    <img class="carousel-slide" src="img/8-corredorVerde.webp" alt="Corredor Verde Marina">
+
+                    <button class="carousel-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <button class="carousel-btn next" onclick="moveSlide(1)">&#10095;</button>
+
+                    <div class="carousel-caption">
+                        Projetos Urbanos viabilizados por PPPs
+                        <div class="caption-credits">*Fonte: Prefeitura de Florianópolis | Créditos Imagens: NTV e ARK7
+                            Arquitetos</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="uniao" class="section bg-dark text-light">
+        <div class="container text-center">
+            <h2 class="section-title text-light" style="font-size: 2.8rem; margin-bottom: 1rem;">O Pacto Metropolitano</h2>
+            <p class="cta-text" style="font-size: 1.3rem; margin-bottom: 3rem; max-width: 800px; margin-left: auto; margin-right: auto;">
+                A mobilidade não tem fronteiras municipais. Para superarmos as travas históricas que limitam o nosso
+                desenvolvimento, precisamos de união. Só tiraremos as soluções definitivas do papel com um compromisso
+                real entre o Estado e as Prefeituras da Grande Florianópolis.
+            </p>
+
+            <div class="logos-grid state-row">
+                <div class="logo-item state-logo" data-tooltip="Fundamental para as garantias da PPP e integração do anel estadual.">
+                    <img src="img/logo-gov-sc.fw_.png" alt="Governo SC" class="brasao-img" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Bras%C3%A3o_de_Armas_do_Estado_de_Santa_Catarina.svg/120px-Bras%C3%A3o_de_Armas_do_Estado_de_Santa_Catarina.svg.png'">
+                    <span>Governo de<br><strong>Santa Catarina</strong></span>
+                </div>
+            </div>
+
+            <div class="logos-grid cities-row">
+                <div class="logo-item city-logo" data-tooltip="O epicentro da demanda e destino principal do fluxo diário.">
+                    <img src="img/logo-pref-marca-pmf.svg" alt="Florianópolis" class="brasao-img" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Bras%C3%A3o_de_Florian%C3%B3polis.svg/100px-Bras%C3%A3o_de_Florian%C3%B3polis.svg.png'">
+                    <span>Prefeitura de<br><strong>Florianópolis</strong></span>
+                </div>
+                <div class="logo-item city-logo" data-tooltip="O coração do eixo continental e ponto de partida da travessia.">
+                    <img src="img/logo-pref-Sao-Jose.webp" alt="São José" class="brasao-img" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Brasao-sao-jose.png/100px-Brasao-sao-jose.png'">
+                    <span>Prefeitura de<br><strong>São José</strong></span>
+                </div>
+                <div class="logo-item city-logo" data-tooltip="Conexões estratégicas vitais para expansão aos eixos Norte e Sul da BR-101.">
+                    <img src="img/logo-pref-palhoca.png" alt="Palhoça" class="brasao-img" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Bras%C3%A3o_de_Palho%C3%A7a.png/100px-Bras%C3%A3o_de_Palho%C3%A7a.png'">
+                    <span>Prefeitura de<br><strong>Palhoça</strong></span>
+                </div>
+                <div class="logo-item city-logo" data-tooltip="Conexões estratégicas vitais para expansão aos eixos Norte e Sul da BR-101.">
+                    <img src="img/logo-pref-biguacu.png" alt="Biguaçu" class="brasao-img" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Bras%C3%A3o_de_Bigua%C3%A7u.png/100px-Bras%C3%A3o_de_Bigua%C3%A7u.png'">
+                    <span>Prefeitura de<br><strong>Biguaçu</strong></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="futuro" class="section bg-light">
+        <div class="container text-center">
+            <h2 class="section-title">O Marco Zero do Anel Ferroviário de Alta Velocidade</h2>
+            <p class="section-desc">O VLT Metropolitano é apenas o início. A implantação bem-sucedida servirá como pilar
+                estrutural para um verdadeiro <strong>Anel Ferroviário</strong> de alta velocidade, integrando as 5
+                principais cidades de cada macrorregião (Litoral, Norte, Serra, Meio-Oeste, Oeste e Sul) em um circuito
+                fechado e contínuo.
+            </p>
+
+            <div class="map-wrapper">
+                <img src="img/mapa-SC-colorido.webp" alt="Regiões de SC" class="map-base-img" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Santa_Catarina_mesoregions.svg/800px-Santa_Catarina_mesoregions.svg.png'">
+
+                <svg class="rail-overlay" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <path class="anel-base" d="M 85 55 C 80 40, 75 25, 70 25 C 55 30, 45 45, 45 45 C 35 35, 18 32, 18 32 C 35 65, 60 65, 60 65 C 65 75, 75 80, 75 80 C 85 75, 85 55, 85 55 Z" />
+                    <path class="anel-pulse pulse-ida" d="M 85 55 C 80 40, 75 25, 70 25 C 55 30, 45 45, 45 45 C 35 35, 18 32, 18 32 C 35 65, 60 65, 60 65 C 65 75, 75 80, 75 80 C 85 75, 85 55, 85 55 Z" />
+                    <path class="anel-pulse pulse-volta" d="M 85 55 C 80 40, 75 25, 70 25 C 55 30, 45 45, 45 45 C 35 35, 18 32, 18 32 C 35 65, 60 65, 60 65 C 65 75, 75 80, 75 80 C 85 75, 85 55, 85 55 Z" />
+                </svg>
+
+                <div class="station-node" style="top: 55%; left: 85%;" title="Grande Florianópolis (Leste)"></div>
+                <div class="station-node" style="top: 25%; left: 70%;" title="Joinville / Jaraguá (Norte)"></div>
+                <div class="station-node" style="top: 45%; left: 45%;" title="Joaçaba / Videira (Meio-Oeste)"></div>
+                <div class="station-node" style="top: 32%; left: 18%;" title="Chapecó / São Miguel (Oeste)"></div>
+                <div class="station-node" style="top: 65%; left: 60%;" title="Lages / Curitibanos (Serra)"></div>
+                <div class="station-node" style="top: 80%; left: 75%;" title="Criciúma / Tubarão (Sul)"></div>
+            </div>
+
+            <div class="social-share" style="margin-top: 4rem;">
+                <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem; color: var(--dark);">Faça sua parte: Pressione por
+                    Mobilidade</h3>
+                <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+                    <a href="https://twitter.com/intent/tweet?text=A%20Grande%20Florian%C3%B3polis%20exige%20mobilidade%20de%20verdade.%20Gestores%2C%20conhe%C3%A7am%20e%20apoiem%20a%20viabilidade%20do%20VLT%20Metropolitano%3A%20https%3A%2F%2Fvltmetropolitano.netlify.app%2F"
+                        target="_blank" class="btn btn-social btn-twitter">Compartilhar no X</a>
+                    <a href="mailto:?subject=Apoio%20ao%20VLT%20Metropolitano&body=A%20Grande%20Florian%C3%B3polis%20exige%20mobilidade%20de%20verdade.%20Gestores%2C%20conhe%C3%A7am%20e%20apoiem%20a%20viabilidade%20do%20VLT%20Metropolitano%3A%20https%3A%2F%2Fvltmetropolitano.netlify.app%2F"
+                        class="btn btn-social btn-email">Cobrar Gestores (E-mail)</a>
+                    <button onclick="copyForInstagram()" class="btn btn-social btn-instagram">Compartilhar no
+                        Instagram</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 Movimento VLT Metropolitano. Desenvolvido para transformar nossa mobilidade por <a
+                    href="https://informaticofloripa.netlify.app/" target="_blank" class="footer-link">Leandro Wallauer
+                    | Informatico.Floripa</a></p>
+        </div>
+    </footer>
+
+    <!-- Modais -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeVideoModal()">&times;</span>
+            <div class="video-container" id="iframeContainer"></div>
+        </div>
+    </div>
+
+    <div id="infoModal" class="modal">
+        <div class="info-modal-content">
+            <span class="close-info" onclick="closeInfoModal()">&times;</span>
+            <h3>A Lógica por Trás do Cálculo</h3>
+            <p>O objetivo desta calculadora é demonstrar o <strong>Custo de Oportunidade</strong> gerado pelo tempo perdido no trânsito, utilizando a legislação trabalhista brasileira (CLT) como base matemática:</p>
+            <ul>
+                <li><strong>Valor da Hora:</strong> Dividimos sua Renda Mensal por <strong>220</strong> (carga horária mensal padrão no Brasil) para descobrir quanto vale 1 hora do seu tempo.</li>
+                <li><strong>Dias Úteis no Trânsito:</strong> Multiplicamos as horas perdidas por dia por <strong>240</strong> (média de dias úteis no ano, descontando fins de semana, férias e feriados).</li>
+                <li><strong>Impacto Financeiro (O Dinheiro Queimado):</strong> Multiplicamos o total de horas anuais perdidas pelo seu valor/hora.</li>
+            </ul>
+            <p>O resultado final não é um gasto direto em combustível, mas sim o valor produtivo que você deixa de gerar ou o valor do tempo livre com sua família que é perdido devido à inércia do poder público.</p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
