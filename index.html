@@ -326,21 +326,32 @@
             </p>
 
             <div class="map-wrapper">
-                <img src="img/mapa-SC-colorido.webp" alt="Regiões de SC" class="map-base-img" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Santa_Catarina_mesoregions.svg/800px-Santa_Catarina_mesoregions.svg.png'">
+    <img src="img/mapa-SC-colorido.webp" alt="Regiões de SC" class="map-base-img"
+        onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Santa_Catarina_mesoregions.svg/800px-Santa_Catarina_mesoregions.svg.png'">
 
-                <svg class="rail-overlay" viewBox="0 0 100 100" preserveAspectRatio="none">
-                    <path class="anel-base" d="M 85 55 C 80 40, 75 25, 70 25 C 55 30, 45 45, 45 45 C 35 35, 18 32, 18 32 C 35 65, 60 65, 60 65 C 65 75, 75 80, 75 80 C 85 75, 85 55, 85 55 Z" />
-                    <path class="anel-pulse pulse-ida" d="M 85 55 C 80 40, 75 25, 70 25 C 55 30, 45 45, 45 45 C 35 35, 18 32, 18 32 C 35 65, 60 65, 60 65 C 65 75, 75 80, 75 80 C 85 75, 85 55, 85 55 Z" />
-                    <path class="anel-pulse pulse-volta" d="M 85 55 C 80 40, 75 25, 70 25 C 55 30, 45 45, 45 45 C 35 35, 18 32, 18 32 C 35 65, 60 65, 60 65 C 65 75, 75 80, 75 80 C 85 75, 85 55, 85 55 Z" />
-                </svg>
+    <!-- SVG Mapeando o Anel (Circuito Fechado em formato de 8 DEITADO) 
+         calibrado cirurgicamente para permanecer dentro das regiões coloridas do mapa -->
+    <svg class="rail-overlay" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <!-- Trilha base (cinza) -->
+        <path class="anel-base"
+            d="M 45 47 C 38 36, 30 24, 20 20 C 10 17, 2 26, 5 36 C 7 44, 22 45, 33 46 C 38 47, 42 47, 45 47 C 50 38, 56 24, 68 18 C 78 16, 87 24, 88 48 C 88 62, 81 76, 70 82 C 60 86, 52 70, 48 56 C 46 51, 45 48, 45 47 Z" />
+        <!-- Via 1 (Azul, Sentido Horário) -->
+        <path class="anel-pulse pulse-ida"
+            d="M 45 47 C 38 36, 30 24, 20 20 C 10 17, 2 26, 5 36 C 7 44, 22 45, 33 46 C 38 47, 42 47, 45 47 C 50 38, 56 24, 68 18 C 78 16, 87 24, 88 48 C 88 62, 81 76, 70 82 C 60 86, 52 70, 48 56 C 46 51, 45 48, 45 47 Z" />
+        <!-- Via 2 (Verde, Sentido Anti-Horário) -->
+        <path class="anel-pulse pulse-volta"
+            d="M 45 47 C 38 36, 30 24, 20 20 C 10 17, 2 26, 5 36 C 7 44, 22 45, 33 46 C 38 47, 42 47, 45 47 C 50 38, 56 24, 68 18 C 78 16, 87 24, 88 48 C 88 62, 81 76, 70 82 C 60 86, 52 70, 48 56 C 46 51, 45 48, 45 47 Z" />
+    </svg>
 
-                <div class="station-node" style="top: 55%; left: 85%;" title="Grande Florianópolis (Leste)"></div>
-                <div class="station-node" style="top: 25%; left: 70%;" title="Joinville / Jaraguá (Norte)"></div>
-                <div class="station-node" style="top: 45%; left: 45%;" title="Joaçaba / Videira (Meio-Oeste)"></div>
-                <div class="station-node" style="top: 32%; left: 18%;" title="Chapecó / São Miguel (Oeste)"></div>
-                <div class="station-node" style="top: 65%; left: 60%;" title="Lages / Curitibanos (Serra)"></div>
-                <div class="station-node" style="top: 80%; left: 75%;" title="Criciúma / Tubarão (Sul)"></div>
-            </div>
+    <!-- Estações Principais com posicionamento calibrado sobre cada região colorida -->
+    <div class="station-node" style="top: 47%; left: 52%;" title="Lages / Curitibanos (Centro)"></div>
+    <div class="station-node" style="top: 26%; left: 6%;"  title="Chapecó / São Miguel (Entre Dionísio Cerqueira e São Miguel do Oeste)"></div>
+    <div class="station-node" style="top: 22%; left: 25%;" title="Joaçaba / Videira (Próximo ao RÊ final de Xanxerê)"></div>
+    <div class="station-node" style="top: 18%; left: 68%;" title="Joinville / Jaraguá (Norte)"></div>
+    <div class="station-node" style="top: 50%; left: 86%;" title="Grande Florianópolis (Leste)"></div>
+    <div class="station-node" style="top: 82%; left: 66%;" title="Criciúma / Tubarão (Sul)"></div>
+</div>
+
 
             <div class="social-share" style="margin-top: 4rem;">
                 <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem; color: var(--dark);">Faça sua parte: Pressione por
